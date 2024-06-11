@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style/portfolio.css">
+    <link rel="stylesheet" href="./style/animations.css">
+    <script src="https://kit.fontawesome.com/36e1d6b6c2.js" crossorigin="anonymous"></script>
+    <script src="backend.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link href="img/favicon.jpg" rel="icon">
+    <title>Portfolio</title>
+</head>
+<body>
+     <!--==========================
+      NAVBAR Section
+    ============================-->
+    <section>
+        <div class="container">
+            <div class="logo ">
+              <a href="./index.html"><h1 >Digiarno</h1></a>
+            </div>
+               <button class="toggle-btn" onclick="toggleNavbar()">
+                <i class="fas fa-bars toggle-icon" id="toggleIcon"></i>
+                
+            </button>
+        <nav class="main-nav ">
+             <button class="toggle-btn close-btn" onclick="toggleNavbar()">
+            <i class="fas fa-times toggle-icon" id="closeIcon" style="display:none;"></i>
+        </button>
+    <ul>
+      <li ><a href="./index.html">Home</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li class="active"><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./team.html">Team</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+</div>
+    </section>
+     <!--==========================
+      HERO SECTION
+    ============================-->
+    <section>
+        <div class="intro">
+            <div class="introtext waviy"><h1>
+                <span style="--i:1">𝒫</span>  
+                <span style="--i:2">𝑜</span>
+                <span style="--i:3">𝓇</span>
+                <span style="--i:4">𝓉</span>
+                <span style="--i:5">𝒻</span>
+                <span style="--i:6">𝑜</span>
+                <span style="--i:7">𝓁</span>
+                <span style="--i:8">𝒾</span>
+                <span style="--i:9">𝑜 </span>
+               </h1></div>
+            <div class="introimg"><img src="./style/images/intro-img.svg" alt="headr"></div>
+        </div>
+    </section>
+    <section>
+        <!--==========================
+      Portfolio Section
+    ============================-->
+     <div class="portfoliocontainer">
+        <div class="portfoliohname">
+          <h5 data-aos="zoom-out">𝒫𝑜𝓇𝓉𝒻𝑜𝓁𝒾𝑜</h5>
+          <h1 data-aos="zoom-out">Featured Projects</h1>
+          <p data-aos="zoom-out">As we turn concepts into complete IT solutions, enter a world of innovation and quality. See how our skillful brushstrokes have brought numerous imaginations to life by exploring our digital canvas.</p>
+        </div>
+    
+        <div class="row1">
+          <div class="portfolioimages " data-aos="flip-left" >
+            <div class="project">
+              <div class="projectimages">
+                <img src="./style/images/fipc.jpg" alt="fipc" >
+              </div>
+              <a href="https://faripc.com/"><div class="projectdetails" >
+                <h1>FIPC – Farzan International Project Consultant</h1>
+                <p>FIPC working in the construction industry for more than 13 Worked with public , private and Architectural Firms</p>
+              </div></a>
+            </div>
+          </div>
+    
+          <div class="portfolioimages " data-aos="flip-left"  >
+            <div class="project">
+              <div class="projectimages">
+                <img src="./style/images/boraqimg.jpg" alt="boraq">
+              </div>
+              <a href="https://boraqenergysolutions.co.uk/"><div class="projectdetails">
+                <h1>BORAQ ENERGY SOLUTIONS</h1>
+                <p>We Provide Complete Energy solutions to Our Customers.</p>
+              </div></a>
+            </div>
+          </div>
+    
+          <div class="portfolioimages " data-aos="flip-left" >
+            <div class="project">
+              <div class="projectimages">
+                <img src="./style/images/luxuryimg.jpg" alt="luxury">
+              </div>
+              <a href="https://luxuryhomesrealestate.ae/lhre/"><div class="projectdetails">
+                <h1>Luxury Home Real Estate</h1>
+                <p>Discover a lavish collection of luxury homes in Dubai.</p>
+              </div></a>
+            </div>
+          </div>
+        </div>
+          <div class="row2 " data-aos="flip-left" >
+            <div class="portfolioimages">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/ecoimg.jpg" alt="eco">
+                </div>
+                <a href="https://www.eco4power.com/"><div class="projectdetails">
+                  <h1>Eco4Power</h1>
+                  <p>We’ll help you choose the right measures for you and your home, to suit both your budget and your vision, so you can can achieve the levels of comfort and energy efficiency that are right for you.</p>
+                </div></a>
+              </div>
+            </div>
+      
+            <div class="portfolioimages" data-aos="flip-left">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/hamadimg.jpg" alt="hamad">
+                </div>
+                <a href="https://www.hammadandawaislawfirm.com/about-us/"><div class="projectdetails">
+                  <h1>Hamad and awais law Firm</h1>
+                  <p>Hammad & Awais law firm Provide All Services and help their Client in Different Cases</p>
+                </div></a>
+              </div>
+            </div>
+      
+            <div class="portfolioimages" data-aos="flip-left">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/card3.jpg" alt="card">
+                </div>
+                <div class="projectdetails">
+                  <h1>card Design</h1>
+                  <p>Yet Another Project</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row2 " data-aos="flip-left" >
+            <div class="portfolioimages">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/card4.jpg" alt="card">
+                </div>
+                <div class="projectdetails">
+                  <h1>DreamStudio bussiness card</h1>
+                  <p>bussiness card Design</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="portfolioimages" data-aos="flip-left">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/logo1.jpg" alt="card">
+                </div>
+                <div class="projectdetails">
+                  <h1>Shah Emporium logo design</h1>
+                  <p>Logo Design</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="portfolioimages" data-aos="flip-left">
+              <div class="project">
+                <div class="projectimages">
+                  <img src="./style/images/hokalogo.jpg" alt="hoka">
+                </div>
+                <div class="projectdetails">
+                  <h1>AB whole sale logo design</h1>
+                  <p>Logo Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-loadmore" data-aos="slide-up"><a href="">LOAD MORE</a></button>
+      </div>
+    
+    </section>
+      <!--==========================
+      START NEW PROJECT SECTION
+    ============================-->
+    <section>
+      <div class="moreprojecta">
+        <h1 data-aos="slide-up">Let’s Get Started New Project.</h1>
+        <p data-aos="slide-up">Initiate Your Next Project With Us!</p>
+        <button class="btn-discovermore" data-aos="slide-up"><a href="">DISCOVER MORE</a></button>
+      </div>
+
+    </section>
+      <!--==========================
+      FOOTER SECTION
+    ============================-->
+    <section>
+      <div class="Main">
+        <section>
+        <div class="footer">
+         <h3 class="h1">DIGIARNO</h3>
+         <div class="para1">
+            <p>Digiarno’s vision is to create innovative and impactful digital solutions that solve real-world problems and improve people’s lives. They aim to be a leader in the field of software engineering and a trusted partner for their clients.</p>
+         </div>
+           <h4 class="h4">OUR NEWSLETTER</h4>
+           <p class="para2">Don’t miss this opportunity to work with Digiarno and transform your business with digital solutions.Subcribe our News latter for more Updates</p>
+           <div>
+               <form name="submit-to-google-sheet">
+                <input type="email" class="inputbox" name="Email" required>
+               <button class="btnsub" type="submit">Subscribe</button>
+               </form>
+               <span id="msg"></span>
+             </div>
+        </div>
+       
+    </section>
+    <section>
+        <div class="footer-links">
+         <h4>USEFUL LINKS</h4>
+         <div class="containerfooter">
+            <ul>
+                <li ><a href="./index.html" >Home</a></li>
+                <li ><a href="./aboutus.html">About us</a></li>
+                <li ><a href="./services.html">Services</a></li>
+                <li ><a href="./term-and-services.html">Terms of services</a></li>
+                <li ><a href="./privacypolicy.html">Privacy policy</a></li>
+             </ul>
+         </div>
+        </div>
+        <!-- //CONTACT US// -->
+        <div class="contact">
+            <h4>CONTACT US</h4>
+            <p>
+                <span class="style" >Office No.02,1st floor</span>
+              <br>
+              <span class="style">Main Athal Chowk Bharakahu</span>
+              <br>
+              <span class="style">ISB</span>
+              <br>
+              <span class="style">Pakistan</span>
+              <br>
+              <span class="Phone"><strong>Phone</strong>+92316-5675354 ,+92302-8913829</span>
+              <br>
+             <strong>Email</strong> <span class="style">info@digianro.com</span>
+            </p>
+            <div class="socialtags">
+                <a href="https://twitter.com/digiarno"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/digiarno?mibextid=kFxxJD"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/digiarno/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/digiarno-smc-private-ltd/"><i class="fa fa-linkedin"></i></a>
+    
+            </div>
+        </div>
+    </section>
+    <!-- //SEND MESSAGES// -->
+    <section>
+        <div class="message">
+            <h4 >Send us a message</h4>
+            <p>Send us Massage for any qurey about any thing feel free to contact us </p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="c4fcb32a-969d-4487-afdc-d8ad3340dccb">
+                  <div>
+                      <input type="text"  placeholder="Enter Your Name" class="name" id="from" name="from">
+                  </div>
+                  <div>
+                      <input type="text" placeholder=" Enter your email"  name="to" class="name" id="to" >
+                  </div>
+                 <div>
+                  <input type="text" placeholder=" Subject" name="name" class="name" id="subject">
+                 </div>
+                  <div>
+                      <textarea name="message" cols="67" rows="7" placeholder=" Enter Text here..." class="textarea" id ="message"></textarea>
+                  </div>
+                  <div>
+                      <button class="btnmessage" >SEND MESSAGE</button>
+                  </div>
+              </form>
+        </div>
+    
+      </section>
+    </div>
+    <div class="footerbar">
+        © Copyright  <strong>Digiarno</strong> All Rights Reserved
+    </div>
+    </section>
+
+     <script>
+      function toggleNavbar() {
+    var nav = document.querySelector('.main-nav');
+    var toggleIcon = document.getElementById('toggleIcon');
+    var closeIcon = document.getElementById('closeIcon');
+
+    if (nav.classList.contains('active')) {
+        nav.classList.remove('active');
+        toggleIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+    } else {
+        nav.classList.add('active');
+        toggleIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+    }
+}
+      </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       AOS.init({
+    duration: 2000,
+    once: true,
+  });
+    </script>
+      <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby-uR6nzTy8JQLjYr_-qhdYf6ze5Rvhv3N9ALhw6OYcMMymCEHKpDipwb0R9ySXMGIQSg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML="Thank you for subscribing!"
+
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    
+</body>
+</html>
